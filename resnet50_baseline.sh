@@ -1,0 +1,1 @@
+python main.py /raid/datasets/ImageNet2012/ -a=resnet50 -b=256 --gpus='2,3' --multiprocessing-distributed --dist-url='tcp://127.0.0.1:5005' --rank=0 --world-size=1 -j=11 --epochs=90 --log=Resnet50_baseline
